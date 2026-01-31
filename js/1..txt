@@ -1,0 +1,54 @@
+ 1.
+ const stock = [
+{ category: "Electronics", subCategory: "Mobile", count: 50 },
+{ category: "Electronics", subCategory: "Laptop", count: 30 },
+{ category: "Furniture", subCategory: "Sofa", count: 10 },
+{ category: "Electronics", subCategory: "Mobile", count: 20 },
+{ category: "Electronics", subCategory: "Mobile", count: 80 },
+{ category: "Furniture", subCategory: "Sofa", count: 10 },
+{ category: "Furniture", subCategory: "Sofa", count: 100 },
+{ category: "Furniture", subCategory: "Sofa", count: 50},
+{ category: "Electronics", subCategory: "Laptop", count: 50 },
+{ category: "Electronics", subCategory: "Laptop", count: 60 }
+];
+// Create a nested object of categories and their total item counts.
+
+const result = stock.reduce((acc, item) => {
+  acc[item.subCategory] = (acc[item.subCategory] || 0) + item.count;
+  return acc;
+}, {});
+console.log(result);
+
+
+2.Group items by category and calculate total price per group.
+const products = [
+  { name: "Lipstick", category: "Beauty", price: 500 },
+  { name: "Foundation", category: "Beauty", price: 1200 },
+  { name: "Chair", category: "Furniture", price: 3000 },
+  { name: "Desk", category: "Furniture", price: 4500 }
+];
+const result = products.reduce((acc, item) => {
+  acc[item.category] = (acc[item.category] || 0) + item.price;
+  return acc;
+}, {});
+console.log(result);
+
+Output: { Beauty: 1700, Furniture: 7500 }
+
+
+
+5.Create a frequency map of product categories from an array of products.
+
+const inventory = [
+{ name: "Shampoo", category: "Beauty" },
+{ name: "Toothpaste", category: "Beauty" },
+{ name: "Sofa", category: "Furniture" },
+{ name: "Dining Table", category: "Furniture" },
+{ name: "Fan", category: "Electronics" }
+];
+
+const product =inventory.reduce((acc, item) => {
+  acc[item.category] = [...(acc[item.category] || []),item.name]; 
+  return acc;
+}, {});
+console.log(product);
