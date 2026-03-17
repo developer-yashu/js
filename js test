@@ -1,0 +1,130 @@
+//  1. Sum of Numbers in a Range
+// Question:
+// Write a for loop to find the sum of all numbers between 1 and 100 (inclusive).
+
+// let sum=0;
+// for(let i=0;i<=100;i++){
+//     sum=i+sum;
+//     }console.log(sum)
+
+
+// 2. Even Numbers Only
+// Question:
+// Write a for loop that prints all even numbers between 0 and 20.
+
+// for(let i=0;i<=20;i++){
+//     if(i%2==0){
+//         console.log(i)
+//     }
+// }
+
+// 3. Square of Each Element in an Array
+// Question:
+// Given the array const arr = [1, 2, 3, 4], write a for loop that creates 
+// a new array where each element is the square of the corresponding element
+// from the original array.
+
+// let arr=[1,2,3,4];
+// let Square=[]
+// for(let i=0;i<arr.length;i++){
+//    Square= arr[i]*arr[i]
+//     console.log(Square)
+// }
+
+// 4. Find the Maximum Number
+// Question:
+// Write a for loop that finds the maximum number in the array const 
+// let arr = [5, 12, 3, 8, 7];
+// let Maximum=0;
+// for(let i=0;i<arr.length;i++){
+//     if(Maximum<arr[i]){
+//         Maximum=arr[i]
+//     }
+// }console.log(Maximum)
+
+
+// 5. Counting Vowels in a String
+// Question:
+// Write a for loop that counts the number of vowels (a, e, i, o, u) in a given string.
+
+// let arr="hello word";
+// let count=0;    
+// for(let i=0;i<arr.length;i++){
+//         if(arr[i]=='a' || arr[i]=='e' || arr[i]=='i' || arr[i]=='o' || arr[i]=='u' ){
+//             count++
+//         }
+//     }
+// console.log(count)
+
+
+// 6. Sum of Array Elements
+// Question:
+// Given the array const arr = [1, 2, 3, 4, 5], write a for loop that calculates the sum of the array elements.
+
+// let a/1rr=[1,2,3,4,5];
+// let sum=0;
+// for(let i=0;i<arr.length;i++){
+//     sum=sum+arr[i]
+// }console.log(sum)
+
+// 7. Reverse an Array
+// Question:
+// Write a for loop to reverse an array. For example, given
+// const arr = [1, 2, 3], it should return [3, 2, 1].
+
+
+// let arr=[1,2,3];
+// let Reverse=[];
+// for(let i=0;i<arr.length;i++){
+//     Reverse=[arr[i],...Reverse];
+// }
+// console.log(Reverse)
+
+
+// 8. Prime Numbers Between 1 and 50
+// Question:
+// Write a for loop to find all prime numbers between 1 and 50.
+
+
+// let Prime=[];
+// for(let num=2;num<=50;num++){
+//     let isPrime=true
+
+//     for(let i=2;i<num;i++){
+//         if(num%2==0){
+//             isPrime=false
+//         }
+//     }
+//     if(isPrime){
+//         Prime.push(num)
+//     }
+// }console.log(Prime)
+
+
+
+// 9. Count Occurrences of a Character
+// Question:
+// Write a for loop that counts how many times the character a appears in the string const str = "javascript is awesome".
+// const str = "javascript is awesome";
+// let count = 0;
+
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] === 'a') {
+//     count++;
+//   }
+// }
+// console.log(count);
+
+
+// 10. Multiplying All Numbers in an Array
+// Question:
+// Given the array const arr = [2, 3, 4, 5], write a for loop to multiply all the 
+// numbers together and return the product.
+
+
+// let arr=[2,3,4,5];
+// let a=1;
+// for(let i=0;i<arr.length;i++){
+//         a*=arr[i]
+// }
+// console.log(a)
