@@ -128,3 +128,23 @@
 //         a*=arr[i]
 // }
 // console.log(a)
+
+11 Count the Word
+
+
+let data = "hello word";
+
+let count = {};
+
+for(let i = 0; i < data.length; i++){
+    let char = data[i];
+
+    if(count[char]){
+        count[char]++;
+    } else {
+        count[char] = 1;
+    }
+}
+
+console.log(count);
+
