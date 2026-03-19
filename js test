@@ -131,20 +131,34 @@
 
 11 Count the Word
 
-
 let data = "hello word";
-
 let count = {};
-
 for(let i = 0; i < data.length; i++){
     let char = data[i];
-
     if(count[char]){
         count[char]++;
     } else {
         count[char] = 1;
     }
 }
-
 console.log(count);
+
+12  Find the secondLargest Number
+// let num = [1,3,2,5,9,8];
+// let Largest=0;
+// let secondLargest =0;
+// for(let i=0;i<num.length;i++){
+//  if(num[i]>Largest){
+// secondLargest =Largest;
+//  Largest=num[i]
+//      console.log("Largest",Largest)
+//  }
+//     else{secondLargest >num[i]
+//             secondLargest =num[i];
+// }     
+// }
+// console.log(">>>>>>>Largest,",Largest)
+// console.log(">>>>>>>secondLargest ",secondLargest )
+
+
 
