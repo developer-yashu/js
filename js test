@@ -161,4 +161,9 @@ console.log(count);
 // console.log(">>>>>>>secondLargest ",secondLargest )
 
 
+13 Lambda functions
+
+const add = (a, b) => a + b;
+console.log(add(2, 3));     //output 5
+
 
