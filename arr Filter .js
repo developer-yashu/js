@@ -1,5 +1,6 @@
-// 7
+what is filter
 
+Condition true wale elements ko naya array me return karta hai. 
 //13
 //  ✅ 1. Hospital Admin → Admitted Patients Only 
 // const patients = [
