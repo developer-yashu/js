@@ -1,3 +1,13 @@
+What is forEach ?
+
+ 
+forEach() is an array method used to iterate over elements.
+It executes a callback function once for each element in the array.
+It does NOT return a new array (returns undefined).
+
+
+
+
 // // ✅ 1. HR System – Email Notify All Employees 
 
 // const employees = ["a@company.com", "b@company.com"]; 
