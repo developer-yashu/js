@@ -1,3 +1,8 @@
+What is sort() in JavaScript
+sort() is an array method used to sort elements (ascending or descending).
+
+
+
 // // 1. HR – Sort employees by salary (high to low) 
 // const employees = [ 
 //   { name: "Amit", salary: 40000 }, 
