@@ -1,3 +1,7 @@
+what is Lambda function?
+  Lambda function is an anonymous (no-name) function written using arrow syntax (=>) for short and concise code.
+
+
 // 2  With multiple lines:
 // const greet = (name) => {
 //   console.log("Hello " + name);
