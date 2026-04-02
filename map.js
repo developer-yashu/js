@@ -1,3 +1,9 @@
+what is map.js
+
+map() creates a new array from calling a function for every array element.
+ map() does not execute the function for empty elements.
+ map() does not change the original array.
+
 // 1 Add Course Code Prefix
 //  ['Math101', 'Eng102'] → ['COURSE: Math101', 'COURSE: Eng102']
  
