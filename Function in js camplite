@@ -1,0 +1,95 @@
+ 1️⃣ Function Declaration
+   
+A Function Declaration is a standard function defined using the function keyword and 
+it can be called before its declaration due to hoisting.
+	
+function add(a, b) {
+  return a + b;
+}
+let result = add(2, 3);
+console.log(result);
+
+
+2️⃣ Function Expression
+
+Hinglish:
+Function Expression me function ko ek variable me store kiya jata hai aur ise call karne se pehle define karna zaroori hota hai.
+
+English:
+A Function Expression is a function stored inside a variable and it must be defined before calling it.
+
+const add = function(a, b) {
+  return a + b;
+};
+
+let result = add(5, 4);
+console.log(result);
+
+3️⃣ Arrow Function
+
+English:
+
+Arrow Function was introduced in ES6 and provides a shorter syntax, and its this behavior is different from regular functions.
+
+const add = (a, b) => {
+  return a + b;
+};
+
+let result = add(10, 5);
+console.log(result);
+
+
+4️⃣ Anonymous Function
+
+English:
+An Anonymous Function is a function without a name and it is usually used as a callback.
+
+const greet = function( str ) {
+	console.log("Welcome to ", str);
+};
+    
+greet("GeeksforGeeks!");
+
+
+5️⃣ IIFE (Immediately Invoked Function)
+
+English:
+IIFE is a function that runs immediately after it is defined
+
+(function () {
+  console.log("IIFE function run ho gaya");
+})();
+
+
+6️⃣ Callback Function
+
+English:
+A Callback Function is a function passed as an argument to another function and executed later.
+
+function greet(name, callback) {
+  console.log("Hello " + name);
+  callback();
+}
+
+function bye() {
+  console.log("Bye Yashu");
+}
+
+greet("Yashu", bye);
+
+
+7️⃣ Constructor Function
+
+English:
+A Constructor Function is used to create objects and it is called using the new keyword.
+
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+const p1 = new Person("Yashu", 21);
+console.log(p1.name);
+console.log(p1.age);
+
+
