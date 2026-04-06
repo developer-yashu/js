@@ -1,4 +1,8 @@
- //  💼 1. HR Management System
+splice() returns an array of removed elements:
+add, remove, or replace elements in an array
+
+
+//  💼 1. HR Management System
 // Original Array:
 // let employees = ["Amit", "Sneha", "Ravi", "John", "Neha"];
 // Scenario: Move "John" to the top of the list so he appears first in the employee dashboard.
