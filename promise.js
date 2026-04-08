@@ -1,3 +1,8 @@
+ Explain Promises and how they work and Promise.all.
+     Promise is a javaScript future result. if success goes to
+     .then if fail goes to .catch and it is two parameter resolve and reject
+
+
 //  interve qushan
 // process.stdout.write('A');
 // setTimeout(() =>process.stdout.write(' B'), 1000);
