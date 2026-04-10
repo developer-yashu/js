@@ -1,3 +1,6 @@
+callback is a function passed as an argument to another function, which is then executed (or "called back") 
+inside the outer function to complete a specific task
+
 function getRegex(callback) {
   setTimeout(() => {
     const Regex = "🥔";
