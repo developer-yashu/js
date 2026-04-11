@@ -1,4 +1,8 @@
-  // 1  naame function
+Function Declaration
+A function declaration is a way to define a function using the function keyword with a name.
+  
+
+// 1  naame function
 //   function greet() {
 //     console.log("Hello, world!");
 //   }
