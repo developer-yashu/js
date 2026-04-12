@@ -1,3 +1,5 @@
+
+Function Expression ek function hota hai jo kisi variable ke andar store kiya jata hai.
 // 1 Basic Syntax:
 //  const greet = function() {
 //   console.log("Hello from anonymous function!");
