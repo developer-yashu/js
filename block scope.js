@@ -1,3 +1,5 @@
+Block Scope (with let/const): Accessible inside {} blocks
+
 {
     let name = "Yashu";
     console.log(name); // Works: Yashu
