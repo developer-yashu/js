@@ -1,6 +1,12 @@
 what is filter
 
 Condition true wale elements ko naya array me return karta hai. 
+
+
+filter() hamesha array return karta hai
+Agar condition match hoti hai → matching elements ka new array
+Agar condition match nahi hoti → empty array []
+ 
 //13
 //  ✅ 1. Hospital Admin → Admitted Patients Only 
 // const patients = [
