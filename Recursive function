@@ -1,0 +1,16 @@
+What is recursive function
+A recursive function is a function that calls itself until it needs to stop.
+
+Simple samajh:
+Function khud ko call karta hai
+Har call me problem chhoti hoti jati hai
+
+
+function printNumber(n) {
+  if (n > 5) {
+    return; // stop
+  }
+console.log(n); // print number
+  printNumber(n + 1); // call next number
+}
+printNumber(1);
