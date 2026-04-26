@@ -1,5 +1,7 @@
 // fliter map redue some  every
 
+👉 Ek bhi element match kare → true
+👉 Koi bhi match na kare → false
 
 
 // 1. Kya koi patient critical hai? 
