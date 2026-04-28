@@ -1,6 +1,7 @@
 What is reduce()?
 
 reduce() is an array method used to convert an array into a single value (like sum, object, etc).
+ map, filter zyada readable hote hain compared to reduce().
 
 // ✅ 1. Sum of Numbers 
 // const numbers = [1, 2, 3, 4, 5]; 
