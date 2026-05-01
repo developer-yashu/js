@@ -3,6 +3,8 @@
 👉 Ek bhi element match kare → true
 👉 Koi bhi match na kare → false
 
+Client-side security risk
+
 
 // 1. Kya koi patient critical hai? 
 // const patients = [
