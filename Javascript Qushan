@@ -3,3 +3,10 @@ JavaScript is a simple programming language that makes websites interactive. It 
 forms, and data updates to happen without reloading the whole page.
 OR
 javascript is a interpretted language it can be more attractive web page by user interface
+
+
+
+✅ 2. What is JavaScript Explain the diffrence between var, let and const.?
+var: Declares a function-scoped variable that can be redeclared and reassigned.
+let: Declares a local-scoped variable that can be reassigned but not redeclared.
+const: Declares a block-scoped constant that cannot be reassigned or redeclared.
