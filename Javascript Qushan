@@ -10,3 +10,15 @@ javascript is a interpretted language it can be more attractive web page by user
 var: Declares a function-scoped variable that can be redeclared and reassigned.
 let: Declares a local-scoped variable that can be reassigned but not redeclared.
 const: Declares a block-scoped constant that cannot be reassigned or redeclared.
+
+
+✅ 3. What are data types in JavaScript?
+A data type defines the type of value stored in a variable
+
+JavaScript has 2 data types:
+
+Primitive Types:
+String,Number,Boolean,Null,Undefined,Symbol (ES6),BigInt (ES11)
+
+Non-Primitive (Reference Type):
+Object (includes Arrays, Functions, etc.)
