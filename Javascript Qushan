@@ -22,3 +22,9 @@ String,Number,Boolean,Null,Undefined,Symbol (ES6),BigInt (ES11)
 
 Non-Primitive (Reference Type):
 Object (includes Arrays, Functions, etc.)
+
+
+
+
+✅ 4. What is Array in JavaScript ?
+Array is a linear data structure which store multiple value in a continous manner.
