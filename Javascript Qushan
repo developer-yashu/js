@@ -42,3 +42,9 @@ console.log(x); // undefined
 
 let y = null;
 console.log(y); // null
+
+✅ 9. What is the purpose of the this keyword?
+this refers to the object that is executing the current function.
+Hinglish:-
+
+this keyword us object ko refer karta hai jo currently code execute kar raha hota hai
