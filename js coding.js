@@ -233,12 +233,14 @@ Example: difference([1,2,3],[2,3,4]) → [1].*/
 /*22. Find Missing Number
 Example: [1,2,4,5] → 3.*/
 
-// let num = [1,2,4,5];
-// for(let i=1;i<num.length;i++){
-//     if(!num.includes(i)){
-//         console.log(i);    
-//     }
-// }
+let arr=[1,2,4,5];
+let missing=[];
+for(let i=0;i<arr.length-1;i++){
+  if (arr[i] + 1 !== arr[i + 1]) {
+        missing = arr[i] + 1;
+    }
+}console.log(missing)
+
 
 
 /*Second 23 Largest Number
