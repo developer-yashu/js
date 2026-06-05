@@ -56,3 +56,16 @@ Types:
 Global Scope: Accessible everywhere
 Local/Function Scope: Accessible inside functions
 Block Scope (with let/const): Accessible inside {} blocks
+
+
+✅ 11. Explain closures and how they work.
+A closure is created when a function remembers its outer lexical environment, even after that outer function has finished executing.
+function outer() {
+  let count = 0;
+  return function inner() {
+    count++;
+    console.log(count);
+  };
+}
+const counter = outer();
+counter(); // 1
