@@ -84,3 +84,18 @@ console.log(Object.values(user)); // ["Rahul", 25]
 ✅ 15. What is the difference between synchronous and asynchronous JavaScript?
 Synchronous: Code is executed line by line, blocking the execution of the next line until the current line finishes.
 Asynchronous: Code is non-blocking, and execution can continue while waiting for an operation to complete.
+
+✅ 16. What are callbacks, and how do they work?
+A callback is a function passed as an argument to another function, so it can be called later.
+function greet(name, callback) {
+  console.log("Hi " + name);
+  callback();
+}
+function sayBye() {
+  console.log("Goodbye!");
+}
+greet("Rahul", sayBye);
+
+// Output:
+// Hi Rahul
+// Goodbye!
