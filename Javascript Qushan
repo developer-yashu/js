@@ -72,3 +72,11 @@ counter(); // 1
 
 ✅ 12. What is an object in JavaScript?
 An object is a collection of key-value pairs where keys are strings (or Symbols), and values can be any data type, including functions.
+
+✅ 14. What is the difference between Object.keys() and Object.values()?
+Object.keys(obj) returns an array of the keys of the object.
+Object.values(obj) returns an array of the values of the object.
+const user = { name: "Rahul", age: 25 };
+
+console.log(Object.keys(user));   // ["name", "age"]
+console.log(Object.values(user)); // ["Rahul", 25]
