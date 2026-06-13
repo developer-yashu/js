@@ -99,3 +99,10 @@ greet("Rahul", sayBye);
 // Output:
 // Hi Rahul
 // Goodbye!
+
+
+✅ 17. How do you implement routing in a React app?
+1️⃣ Install react-router-dom
+2️⃣ Wrap the app with <BrowserRouter>
+3️⃣ Use <Routes> and <Route> to define paths
+4️⃣ Use <Link> or useNavigate to navigate
