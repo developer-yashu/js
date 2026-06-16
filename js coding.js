@@ -244,20 +244,20 @@ for(let i=0;i<arr.length-1;i++){
 
 
 /*Second 23 Largest Number
-Example: [1,5,3,9,7] → 7.*/
 
-// let arr=[1,5,3,9,7]
-// let Largest=0;
-// let Second=0;
-// for(let i=0;i<arr.length;i++){
-//     if(Largest <arr[i]){
-//         Second=Largest
-//         Largest=arr[i];
-//     }
-//     Second=arr[i]
-// }console.log(Largest);
-// console.log(Second);
-
+let arr=[1,9,2,8,11,1,4,7];
+let Largest=0;
+let Second=0;
+for(let i=0;i<arr.length;i++){
+    if(Largest <arr[i]){
+        Second=Largest
+        Largest=arr[i];
+    }
+   else if (arr[i]>Second) {
+        Second = arr[i];
+    }
+}console.log(Largest); //11
+console.log(Second);  //9
 
 
  /*24. Reverse Integer
