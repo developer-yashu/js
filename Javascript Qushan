@@ -139,3 +139,15 @@ Promise.all([
   Promise.resolve(3)
 ])
 .then((values) => console.log(values)); // [1, 2, 3]
+
+
+
+✅ 18. What is async/await, and how is it used?
+Async/await is a way to handle asynchronous operations in JavaScript. An async function always returns a Promise, and await pauses execution until that Promise is 
+resolved or rejected. It makes asynchronous code cleaner and more readable, avoiding long .then() chains.
+
+
+✅ 20. What is the garbage collection ?
+👉 Line: JavaScript automatically removes unused memory using garbage collection.
+let obj = { name: "Rahul" };
+obj = null; // eligible for GC
