@@ -151,3 +151,11 @@ resolved or rejected. It makes asynchronous code cleaner and more readable, avoi
 👉 Line: JavaScript automatically removes unused memory using garbage collection.
 let obj = { name: "Rahul" };
 obj = null; // eligible for GC
+
+✅ 21. What is the React Reconciliation ?
+👉 Line: React updates UI efficiently by comparing Virtual DOM (diffing).
+setState({ name: "Rahul" }); // only changed part updates
+
+✅ 22. What is the Error Boundary ?
+👉 Line: Error Boundaries catch runtime errors in React components.
+
