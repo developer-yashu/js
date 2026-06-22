@@ -159,3 +159,20 @@ setState({ name: "Rahul" }); // only changed part updates
 ✅ 22. What is the Error Boundary ?
 👉 Line: Error Boundaries catch runtime errors in React components.
 
+✅ 23. What is the Throttling ?
+👉 Line: Throttling limits function execution to once in a given time.
+
+✅ 24. What is the Nullish ?
+👉 Line: Returns right value only if left is null or undefined.
+let name = null ?? "Default";
+
+✅ 25. What is the Callback Hell ?
+👉 Line: Nested callbacks making code hard to read.
+setTimeout(() => {
+  setTimeout(() => {
+    setTimeout(() => console.log("Done"), 1000);
+  }, 1000);
+}, 1000);
+
+
+
