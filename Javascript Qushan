@@ -175,4 +175,12 @@ setTimeout(() => {
 }, 1000);
 
 
+✅ 26. What is the Optional Chaining ?
+👉 Line: Safely access nested properties without error.
+
+user?.address?.city;
+
+✅ 27. What is the React Rendering ?
+👉 Line: Component re-renders when state or props change.
+setCount(count + 1);
 
