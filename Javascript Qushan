@@ -184,3 +184,15 @@ user?.address?.city;
 👉 Line: Component re-renders when state or props change.
 setCount(count + 1);
 
+✅ 28. What is the StrictMode ?
+👉 Line: Helps detect bugs in development mode.
+<React.StrictMode>
+  <App />
+</React.StrictMode>
+
+✅ 29. What is the Suspense ?
+👉 Line: Used to handle lazy loading of components.
+<Suspense fallback="Loading...">
+  <LazyComp />
+</Suspense>
+
