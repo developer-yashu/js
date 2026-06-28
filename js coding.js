@@ -127,9 +127,7 @@ Example: sum(5) → 15.*/
 // console.log(sum);
 
 
-
-/*13. Count Even Numbers up to n
-Example: countEven(10) → 5.*/
+ 
 
 
 /*13. Count Even Numbers up to n
