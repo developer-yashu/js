@@ -100,11 +100,13 @@ Example: findDuplicates([1,2,2,3,4,4]) → [2,4].*/
 
 // 10. Reverse Words
 
-// let str = "Hello world";
-// let revers=" ";
-// for(let i=0;i<str.length;i++){
-//     revers=str[i]+revers
-// }console.log(revers);
+let str = "Hello kjhkjh  yashu world";
+let words = str.split(" ");
+let reverse = " ";
+for (let i = words.length - 1; i >= 0; i--) {
+    reverse += words[i] + " ";
+}
+console.log(reverse);
 
 
 /*11. Merge Two Objects
