@@ -1,84 +1,78 @@
 // 1. Reverse a String
-
-// const str = "Hello word";
-// let revers=" ";
-// for(let i=0;i<str.length;i++){
-//     revers=str[i]+revers
-// }console.log(revers);
+const str = "Hello word";
+let revers=" ";
+for(let i=0;i<str.length;i++){
+    revers=str[i]+revers
+}console.log(revers);
 
 
 //2. Find the Largest Number
-
-// let num = [1,3,2];
-// let Largest=[];
-// for(let i=0;i<num.length;i++){
-//     if(Largest<num[i]){
-//         Largest=num[i];
-//     }
-// }console.log(Largest);
+let num = [1,3,2];
+let Largest=[];
+for(let i=0;i<num.length;i++){
+    if(Largest<num[i]){
+        Largest=num[i];
+    }
+}console.log(Largest);
 
 //3. Count Vowels
-// let str = "hello";
-// let Count=0;
-// for(let i=0;i<str.length;i++){
-//     if(str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u'){
-//         Count++
-//     }
-// }console.log(Count);
+let str = "hello";
+let Count=0;
+for(let i=0;i<str.length;i++){
+    if(str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u'){
+        Count++;
+    }
+}console.log(Count);
 
 
 // 4. Sum of Array
-
-// let arr = [1,2,3];
-// let sum=0;
-// for(let i=0;i<arr.length;i++){
-//     sum=sum+arr[i]
-// }console.log(sum);
+let arr = [1,2,3];
+let sum=0;
+for(let i=0;i<arr.length;i++){
+    sum=sum+arr[i]
+}console.log(sum);
 
 
 //5 Remove Duplicates
-// let num = [1,2,2,3];
-// let unique = [];
-
-// for(let i=0;i<num.length;i++){
-//     let Duplicates=false;
-//    for(let j=0;j<unique.length;j++){
-//     if(num[i]==unique[j]){
-//         Duplicates=true
-//     }
-    
-//    }if(!Duplicates){
-//     unique.push(num[i])
-//    }
-// }console.log(unique);
+let num = [1,2,2,3];
+let unique = [];
+for(let i=0;i<num.length;i++){
+    let Duplicates=false;
+   for(let j=0;j<unique.length;j++){
+    if(num[i]==unique[j]){
+        Duplicates=true
+    }
+   }if(!Duplicates){
+    unique.push(num[i])
+   }
+}console.log(unique);
 
 
 //6 Longest Word
-// let words = ("The quick brown fox");
-// let word = words.split(" ");
-// let longest = '';
-// console.log(word);
-// for(let i=0;i<word.length;i++){
-//     if(word[i].length>longest.length){
-//         longest=word[i]
-//     }
-// }console.log(longest);
+let words = ("The quick brown fox");
+let word = words.split(" ");
+let longest = '';
+console.log(word);
+for(let i=0;i<word.length;i++){
+    if(word[i].length>longest.length){
+        longest=word[i]
+    }
+}console.log(longest);
 
 
 
 //7. Count Characters
-// let str = "hello word hello";
-// let obj = {};
-
-// for(let i=0;i<str.length;i++){
-//     let data=str[i];
-//     if(obj[data]){
-//         obj[data]+=1
-//     }
-//     else{
-//         obj[data]=1
-//     }
-// }console.log(obj);
+let str = "hello word hello";
+let obj = {};
+for(let i=0;i<str.length;i++){
+    let data=str[i];
+    if(obj[data]){
+        obj[data]+=1
+    }
+    else{
+        obj[data]=1
+    }
+}console.log(obj);
 
 
 /*9. Find Duplicates
