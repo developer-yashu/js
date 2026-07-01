@@ -92,7 +92,8 @@ Example: findDuplicates([1,2,2,3,4,4]) → [2,4].*/
 
 
 
-// 10. Reverse Words
+// 10. Reverse Words 
+output = world yashu  kjhkjh Hello;
 
 let str = "Hello kjhkjh  yashu world";
 let words = str.split(" ");
