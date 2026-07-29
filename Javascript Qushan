@@ -196,3 +196,41 @@ setCount(count + 1);
   <LazyComp />
 </Suspense>
 
+
+
+✅ 30. What is the Concurrent React ?
+👉 Line: Allows React to render updates in background for better performance.
+
+Hinglish:-
+
+React ko allow karta hai ki wo updates ko background me render kare better performance ke liye.
+
+startTransition(() => {
+  setState(value);
+});
+✅ 31. What is the Fragment ?
+👉 Line: Groups elements without adding extra DOM node.
+
+Hinglish:-
+
+Elements ko group karta hai bina extra DOM node add kiye.
+
+<>
+  <h1>Hello</h1>
+</>
+✅ 32. What is the Code Splitting ?
+👉 Line: Splits bundle into smaller chunks for performance.
+
+Hinglish:-
+
+Bundle ko smaller chunks me split karta hai performance improve karne ke liye.
+
+const Comp = React.lazy(() => import("./Comp"));
+✅ 33. What is the Microtask Queue ?
+👉 Line: Promise callbacks execute in microtask queue before macrotasks.
+
+Hinglish:-
+
+Promise callbacks microtask queue me execute hote hain, macrotasks se pehle.
+
+Promise.resolve().then(() => console.log("Microtask"));
