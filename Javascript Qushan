@@ -234,3 +234,119 @@ Hinglish:-
 Promise callbacks microtask queue me execute hote hain, macrotasks se pehle.
 
 Promise.resolve().then(() => console.log("Microtask"));
+
+
+
+
+✅ 34. What is the Event Bubbling ?
+👉 Line: Event flows from child to parent.
+
+Hinglish:-
+
+Event child se parent ki taraf flow hota hai.
+
+div.addEventListener("click", () => console.log("parent"));
+button.addEventListener("click", () => console.log("child"));
+✅ 35. What is the querySelector ?
+👉 Line: Selects first matching DOM element.
+
+Hinglish:-
+
+First matching DOM element ko select karta hai.
+
+document.querySelector(".box");
+✅ 36. What is the addEventListener ?
+👉 Line: Attaches event handler to element.
+
+Hinglish:-
+
+Element par event handler attach karta hai.
+
+btn.addEventListener("click", () => console.log("clicked"));
+✅ 37. What is the Strict Mode (JS) ?
+👉 Line: Enables stricter parsing and error handling.
+
+Hinglish:-
+
+Stricter parsing aur error handling enable karta hai.
+
+"use strict";
+x = 10; // error
+✅ 38. What are arrays in JavaScript?
+Array is a collection of data in JavaScript. It can store multiple values like numbers, strings, objects, or even other arrays in a single variable.
+
+Hinglish:-
+
+Become a Medium member
+Array JavaScript me data ka collection hota hai. Ye ek single variable me multiple values store kar sakta hai jaise numbers, strings, objects ya even other arrays.
+
+// Array with multiple types of values
+let myArray = [42, "Hello", true, { name: "Rahul" }, [1, 2, 3]];
+
+// Accessing elements
+console.log(myArray[0]);      // 42
+console.log(myArray[1]);      // "Hello"
+console.log(myArray[3].name); // "Rahul"
+console.log(myArray[4]);      // [1, 2, 3]
+✅ 39. How do you iterate over an array?
+There are several ways to loop through an array:
+
+const arr = [1, 2, 3];
+
+// 1. standard for loop
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+
+// 2. for...of loop (Modern and clean)
+for (let num of arr) {
+  console.log(num);
+}
+
+// 3. forEach method (Built-in array method)
+arr.forEach((item) => console.log(item));
+
+// 4. for...in loop (not recommended for arrays, better for objects)
+for (let index in arr) {
+  console.log(arr[index]);
+}
+✅ 40. What are some common array methods?
+🔹 Mutating methods:
+push() – adds to end
+pop() – removes from end
+shift() – removes from start
+unshift() – adds to start
+splice() – remove/replace/insert at index
+🔹 Non-mutating methods:
+slice(start, end) – returns shallow copy
+map() – transforms each element
+filter() – returns elements that meet condition
+reduce() – reduces to single value
+find() – returns first match
+includes() – checks existence
+const nums = [1, 2, 3, 4, 5];
+
+const doubled = nums.map(n => n * 2);        // [2, 4, 6, 8, 10]
+const evens = nums.filter(n => n % 2 === 0); // [2, 4]
+const sum = nums.reduce((a, b) => a + b);    // 15
+✅ 41. How do you handle errors in JavaScript?
+JavaScript provides two main ways to handle errors: try…catch and .then().catch(). try…catch is used for synchronous code and is simple to use. .then().catch() is used 
+for Promises in asynchronous code and allows handling errors effectively in async operations.
+
+Hinglish:-
+
+JavaScript me errors handle karne ke do main tareeke hote hain: try…catch aur .then().catch(). try…catch synchronous code ke liye use hota hai aur simple hota hai, jabki .then().catch()
+Promises ke saath asynchronous code me use hota hai aur async operations me errors handle karne ke liye effective hota hai.
+
+Synchronous:-
+try {
+  let result = riskyOperation();
+  console.log(result);
+} catch (error) {
+  console.error("Error:", error.message);
+}
+Asynchronous:-
+fetch("https://api.example.com")
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error("Error:", error.message));
