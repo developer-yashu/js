@@ -310,6 +310,8 @@ arr.forEach((item) => console.log(item));
 for (let index in arr) {
   console.log(arr[index]);
 }
+
+
 ✅ 40. What are some common array methods?
 🔹 Mutating methods:
 push() – adds to end
@@ -329,6 +331,7 @@ const nums = [1, 2, 3, 4, 5];
 const doubled = nums.map(n => n * 2);        // [2, 4, 6, 8, 10]
 const evens = nums.filter(n => n % 2 === 0); // [2, 4]
 const sum = nums.reduce((a, b) => a + b);    // 15
+
 ✅ 41. How do you handle errors in JavaScript?
 JavaScript provides two main ways to handle errors: try…catch and .then().catch(). try…catch is used for synchronous code and is simple to use. .then().catch() is used 
 for Promises in asynchronous code and allows handling errors effectively in async operations.
@@ -350,3 +353,62 @@ fetch("https://api.example.com")
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error("Error:", error.message));
+
+
+✅ 42. What is the difference between try…catch and Promise error handling?
+try...catch handles errors in synchronous code, while Promise .catch() is used to handle errors in asynchronous code.
+
+Hinglish:-
+
+try...catch synchronous code me errors handle karta hai, jabki Promise .catch() asynchronous code me errors handle karta hai.
+
+async function fetchData() {
+  try {
+    const res = await fetch("invalid-url");
+  } catch (err) {
+    console.error("Caught error:", err);
+  }
+}
+
+✅ 43. What are template literals, and how do you use them?
+Template literals use backticks (`) and allow:
+
+Multiline strings
+Embedded expressions using ${}
+const name = "Rahul";
+const msg = `Hello, ${name}!`; // "Hello, Rahul!"
+
+✅ 44. Explain destructuring assignment.
+Destructuring is a way to unpack values from arrays or objects into variables.
+
+Hinglish:-
+
+Destructuring ek method hai jisse hum arrays ya objects se values ko unpack karke variables me store kar sakte hain.
+
+Array destructuring:
+const [a, b] = [10, 20];
+console.log(a); // 10
+Object destructuring:
+const user = { name: "Rahul", age: 25 };
+const { name, age } = user;
+
+console.log(name); // Rahul
+
+✅ 45. What are arrow functions, and how do they differ from regular functions?
+Arrow functions are shorter syntax for writing functions and they do not have their own this.
+
+A regular function is a standard JavaScript function declared using the function keyword.
+
+Hinglish:-
+
+Arrow functions: Functions likhne ka short syntax hota hai aur inka apna this nahi hota.
+Regular function: Ek normal JavaScript function hota hai jo function keyword se declare kiya jata hai.
+// Regular function
+function sum(a, b) {
+  return a + b;
+}
+
+// Arrow function (ES6)
+const sum = (a, b) => a + b;
+
+
