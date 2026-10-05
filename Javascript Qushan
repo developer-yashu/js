@@ -412,3 +412,26 @@ function sum(a, b) {
 const sum = (a, b) => a + b;
 
 
+
+✅ 46. What are spread and rest operators?
+Both use the same syntax (...) but behave differently based on context.
+🔹 Spread Operator:
+Used to unpack elements of an array or object.
+
+Hinglish:-
+Array ya object ke elements ko unpack karne ke liye use hota hai.
+
+const arr = [1, 2, 3];
+const newArr = [...arr, 4, 5]; // [1, 2, 3, 4, 5]
+const obj1 = { a: 1, b: 2 };
+const obj2 = { ...obj1, c: 3 }; // { a: 1, b: 2, c: 3 }
+
+🔹 Rest Operator:
+Used to collect remaining values into an array or object.
+
+Hinglish:-
+Bache hue values ko ek array ya object me collect karne ke liye use hota hai.
+function sum(...numbers) {
+  return numbers.reduce((a, b) => a + b, 0);
+}
+sum(1, 2, 3); // 6
