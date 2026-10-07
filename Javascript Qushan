@@ -435,3 +435,12 @@ function sum(...numbers) {
   return numbers.reduce((a, b) => a + b, 0);
 }
 sum(1, 2, 3); // 6
+
+
+✅ 47. What are JavaScript modules, and why are they used?
+JavaScript modules are files where you write code that can be reused in other files.
+
+OR
+
+javascript modules are used to like that first component is created and some parts access the another component using the first component 
+is exported and second component used the functionality accessible 2nd componnetnt used the imported that is javascript modules
