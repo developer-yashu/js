@@ -444,3 +444,12 @@ OR
 
 javascript modules are used to like that first component is created and some parts access the another component using the first component 
 is exported and second component used the functionality accessible 2nd componnetnt used the imported that is javascript modules
+
+
+✅ 48. What is the Document Object Model (DOM)?
+the DOM is a tree-based structure. It allows JavaScript to access and change HTML elements. The page does not refresh automatically when you click a button;
+it only updates what is needed, which makes the webpage faster if used correctly.
+
+document.getElementById("myBtn").addEventListener("click", function() {
+  alert("Button clicked!");
+});
