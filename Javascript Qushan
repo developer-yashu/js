@@ -456,3 +456,12 @@ document.getElementById("myBtn").addEventListener("click", function() {
 
 ✅ 49. What is the difference between == and ===?
 == checks if the values are equal, but === checks both the value and the data type strictly.
+
+✅ 51. What is debouncing?
+Debouncing is a technique that runs a function after a small delay.
+
+✅ Example use case: A search bar should only make API calls after the user stops typing.
+
+OR
+
+Debouncing is a technique that makes a function run only after the user stops doing an action for a short time.
