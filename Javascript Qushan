@@ -453,3 +453,6 @@ it only updates what is needed, which makes the webpage faster if used correctly
 document.getElementById("myBtn").addEventListener("click", function() {
   alert("Button clicked!");
 });
+
+✅ 49. What is the difference between == and ===?
+== checks if the values are equal, but === checks both the value and the data type strictly.
