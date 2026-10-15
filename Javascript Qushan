@@ -465,3 +465,11 @@ Debouncing is a technique that runs a function after a small delay.
 OR
 
 Debouncing is a technique that makes a function run only after the user stops doing an action for a short time.
+
+
+✅ 52. What are higher-order functions?
+A higher-order function is a function that takes another function as an argument or returns a function.
+
+Hinglish:-
+
+Higher-order function ek aisa function hota hai jo dusre function ko argument ke roop me leta hai ya fir ek function return karta hai.
