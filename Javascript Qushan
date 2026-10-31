@@ -473,3 +473,13 @@ A higher-order function is a function that takes another function as an argument
 Hinglish:-
 
 Higher-order function ek aisa function hota hai jo dusre function ko argument ke roop me leta hai ya fir ek function return karta hai.
+
+
+✅ 53. What is the difference between call(), apply(), and bind()?
+🔹 call():
+Invokes a function immediately, with a given this value and arguments passed individually.
+
+Hinglish:-
+Ek function ko immediately call karta hai, jisme this value aur arguments individually pass kiye jate hain.
+🔹 apply():
+Invokes a function immediately, with a given this value and arguments passed as an array.
