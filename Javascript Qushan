@@ -483,3 +483,8 @@ Hinglish:-
 Ek function ko immediately call karta hai, jisme this value aur arguments individually pass kiye jate hain.
 🔹 apply():
 Invokes a function immediately, with a given this value and arguments passed as an array.
+
+✅ 54. What is the difference between setTimeout and setInterval?
+MethodDescription:-
+
+setTimeoutRuns a function once after delaysetIntervalRuns a function repeatedly at intervals
