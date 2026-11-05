@@ -488,3 +488,6 @@ Invokes a function immediately, with a given this value and arguments passed as 
 MethodDescription:-
 
 setTimeoutRuns a function once after delaysetIntervalRuns a function repeatedly at intervals
+
+
+ne
