@@ -495,3 +495,10 @@ ne
 
 ✅ 55. What are symbols in JavaScript?
 Symbol is a primitive data type introduced in ES6. It represents a unique identifier.
+
+
+✅ 56. What are pure functions?
+A pure function:
+
+Always returns the same output for the same input
+Has no side effects (does not modify external state)
