@@ -108,18 +108,18 @@ console.log(reverse);
 Example: mergeObjects({a:1},{a:2,b:3}) → {a:2,b:3}.*/
 
 
-// let obj1 = {a:1};
-// let obj2 = {a:2,b:3};
-// let Merge={...obj1,...obj2}
-// console.log(Merge);
+let obj1 = {a:1};
+let obj2 = {a:2,b:3};
+let Merge={...obj1,...obj2}
+console.log(Merge);
 
 /*12. Sum 1 to n
 Example: sum(5) → 15.*/
-// let sum=0;
-// for(let i=1;i<=5;i++){
-// sum=sum+i;
-// }
-// console.log(sum);
+let sum=0;
+for(let i=1;i<=5;i++){
+sum=sum+i;
+}
+console.log(sum);
 
 
  
