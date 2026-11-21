@@ -140,12 +140,12 @@ for(let i=1;i<=10;i++){
 /*14. Multiply Array by 2
 Example: [1,2,3] → [2,4,6].*/
 
-// let arr=[1,2,3];
-// let data=[];
-// for(let i=0;i<arr.length;i++){
-//     data.push(arr[i]*2)
-// }
-// console.log(data);
+let arr=[1,2,3];
+let data=[];
+for(let i=0;i<arr.length;i++){
+    data.push(arr[i]*2)
+}
+console.log(data);
 
 
 /*16. Palindrome Check
